@@ -1,7 +1,7 @@
 
 # Auto Lab Shutdown
 
-Don't let your resources run overnight! This Terraform configuration deploys a lambda function that executes at a scheduled interval and shuts down ALL AWS EC2 resources in the target regions. If you would like it to skip a resource, ensure that that resource has "Shut Down Protection" enabled. Support for Azure VMs is a next step if anyone wants to contribute to the repo =).
+Don't let your resources run overnight! This Terraform configuration deploys a lambda function that executes at a scheduled interval and shuts down ALL AWS EC2 resources in the target regions. If you would like it to skip a resource, ensure that that resource has "Shut Down Protection" enabled.
 
   
 
