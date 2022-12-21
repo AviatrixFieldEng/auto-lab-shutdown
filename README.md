@@ -18,7 +18,7 @@ Edit `var.tfvars` with your variables:
 
 * **aws_deployment_region**: Region to deploy the Lamba. Defaults to `us-east-1`
 
-* **shutdown_target_aws_regions**: A comma-separated list of AWS regions. These are the regions that the script will attempt to shutdown resources. Example: `us-east-1,us-east-2`
+* **shutdown_target_aws_regions**: A comma-separated list of AWS regions. These are the regions that the script will attempt to shutdown resources. Examples: `us-east-1,us-east-2`, `all`
 
 * **lambda_schedule_expression**: A schedule expression to determine when you want the lambda to execute. The default schedule expression is `cron(0 5 * * ? *)` which translates to 9PM EST daily. For more information on creating schedule expressions see the following guide: https://docs.aws.amazon.com/lambda/latest/dg/services-cloudwatchevents-expressions.html
 
