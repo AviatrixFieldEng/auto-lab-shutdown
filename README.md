@@ -10,14 +10,9 @@ Don't let your resources run overnight! This Terraform configuration deploys a l
 Clone the repository.
 
 ```
-
 git clone https://github.com/AviatrixFieldEng/auto-lab-shutdown.git
-
 cd auto-lab-shutdown
-
 ```
-
-  
 
 Edit `var.tfvars` with your variables:
 
@@ -32,11 +27,7 @@ Edit `var.tfvars` with your variables:
 Execute the Terraform:
 
 ```
-
 terraform init
-
 terraform plan --var-file=var.tfvars
-
 terraform apply --var-file=var.tfvars
-
 ```
